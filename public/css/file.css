@@ -1,0 +1,145 @@
+/* Add your CSS styles and special effects here */
+.btn:hover {
+    background-color: #007BFF;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.table {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loading-spinner {
+    animation: spin 2s linear infinite;
+}
+
+.jumbotron {
+    background: linear-gradient(45deg, #007BFF, #00FF7F);
+}
+
+h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+    border-radius: 10px;
+}
+
+/* Special text color for text */
+.special-text {
+    color: #FF5733;
+    /* You can change this color code to your desired color */
+}
+
+/* Hover effect for images */
+.image-hover:hover {
+    opacity: 0.8;
+    /* Adjust the opacity to your preference */
+    transition: opacity 0.3s ease-in-out;
+    /* Smooth transition effect */
+}
+
+/* Mouse-over effect for buttons */
+.btn:hover {
+    background-color: #007BFF;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+/* Mouse-over effect for tables */
+.table:hover {
+    box-shadow: 0 4px 6px rgba(236, 11, 11, 0.3);
+}
+
+/* Mouse-over effect for images */
+img:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Add a special effect for specific tables (you can customize this further) */
+.bug-table:hover {
+    background-color: #FF5733;
+    /* Change to your desired background color */
+}
+
+.enhancement-table:hover {
+    background-color: #00FF7F;
+    /* Change to your desired background color */
+}
+
+.btn:hover {
+    background-color: #007BFF;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+/* Mouse-over effect for tables */
+.table:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Mouse-over effect for images */
+img:hover {
+    filter: grayscale(100%);
+    transition: filter 0.1s ease-in-out;
+}
+
+/* Add a special effect for specific tables (you can customize this further) */
+.bug-table:hover {
+    background-color: #FF5733; /* Change to your desired background color */
+}
+
+.enhancement-table:hover {
+    background-color: #00FF7F; /* Change to your desired background color */
+}
+
+/* Hover effect for buttons */
+.btn:hover {
+    /* animation: spin 0.9s linear infinite; */
+    animation: buttonHoverAnimation 0.3s ease-in-out;
+    background-color: #313233;
+    color: #fff; /* Change to your desired hover text color */
+    transform: scale(1.1); /* Add a slight scale effect on hover */
+    border-color: silver;
+    
+}
+
+/* Hover effect for tables */
+.table:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Add a box shadow on hover */
+    background-color: rgb(3, 12, 30);
+    border-radius: 10px;
+}
+
+.table.th:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Add a box shadow on hover */
+    background-color: rgb(201, 209, 223);
+    border-radius: 10px;
+}
+
+/* Hover effect for cards */
+.card:hover {
+    transform: scale(1.05); /* Scale up the card on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Add a box shadow on hover */
+}
+
+/* Add a transition for smoother hover effects */
+.btn, .table, .card {
+    transition: all 0.3s ease-in-out;
+}
