@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\TicketController;
 use App\Http\Controllers\AdminController;
 
-
+dddd 
 Route::get('/', function () {
     return view('welcome');
 });
